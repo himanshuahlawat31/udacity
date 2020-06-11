@@ -146,13 +146,13 @@
     },
     "variables": {
     "workspacename": "[concat('quick-starts-ws-',parameters('uniqueSuffix')) ]",
-    "computeinstancename": "[concat('Notebook',variables('workspaceName'))]"
+    "computeinstancename": "Notebook"
     },
     "resources": [
       {
         "type": "Microsoft.MachineLearningServices/workspaces/computes",
         "apiVersion": "2020-02-18-preview",
-        "name": "[concat(variables('workspaceName'), '/', variables('computeinstanceName'))]",
+        "name": "[concat(variables('computeinstancename'), '/', variables('workspacename'))]",
         "location": "[parameters('location')]",
         "identity": {
           "type": "systemAssigned"
