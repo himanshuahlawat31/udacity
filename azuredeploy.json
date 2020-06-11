@@ -145,7 +145,7 @@
       }
     },
     "variables": {
-    "workspacename": "[concat('quick-starts-ws',parameters('uniqueSuffix')) ]",
+    "workspacename": "[concat('quick-starts-ws-',parameters('uniqueSuffix')) ]",
     "computeinstancename": "[concat('Notebook',variables('workspaceName'))]"
     },
     "resources": [
