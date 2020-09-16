@@ -17,7 +17,7 @@
         },
         "datasetName": {
             "type": "String",
-            "defaultValue": "demodata",
+            "defaultValue": "Bank-marketing",
             "metadata": {
                 "description": "The name of the dataset."
             }
