@@ -10,7 +10,7 @@
         },
         "httpUrl": {
             "type": "String",
-            "defaultValue": "https://nanodegree.blob.core.windows.net/nano/bike.csv",
+            "defaultValue": "https://introtomlsampledata.blob.core.windows.net/data/nyc-taxi/nyc-taxi-sample-data.csv",
             "metadata": {
                 "description": "The Http URL."
             }
