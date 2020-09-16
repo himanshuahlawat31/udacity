@@ -10,7 +10,7 @@
         },
         "httpUrl": {
             "type": "String",
-            "defaultValue": "https://introtomlsampledata.blob.core.windows.net/data/nyc-taxi/nyc-taxi-sample-data.csv",
+            "defaultValue": "https://udacitystorage.blob.core.windows.net/udacity/bankmarketing_train.csv",
             "metadata": {
                 "description": "The Http URL."
             }
