@@ -158,7 +158,7 @@
           "type": "systemAssigned"
         },
         "properties": {
-            "computeType": "computeinstance",
+            "computeType": "ComputeInstance",
             "properties":
             {
               "VMSize" : "[parameters('VMSize')]",                    
